@@ -1,0 +1,236 @@
+model-viewer {
+  width: 624px;
+  height: 626px;
+}
+
+.model-viewer-wrapper {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  model-viewer {
+    height: 340px;
+    /* background-color: antiquewhite; */
+  }
+}
+
+
+.project-listing .canvas-block {
+  width: calc(100vw - 417px);
+  height: 100vh;
+  background-color: #000;
+}
+.project-listing .canvas-block  div, .project-listing .canvas-block div canvas {
+  height: 100%;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.form-select {
+  border-radius: 35px !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(15px);
+  color: #fff !important;
+  font-size: 14px !important;
+  height: 60px;
+  padding: 0 16px !important;
+  caret-color: #fff !important;
+  transition: all 300ms ease;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form-select:hover,
+.form-select:focus {
+  background-color: rgba(255, 255, 255, 0.1254901961) !important;
+  color: #fff !important;
+  box-shadow: none !important;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.4392156863) !important;
+  transition: all 300ms ease;
+}
+
+.filter-dropdown option {
+  border-bottom: 1px solid #e0e0e0;
+  background-color: rgba(0, 122, 255, 0.0823529412);
+}
+
+.filter-dropdown {
+  width: 480px !important ;
+}
+
+.project-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  right: 0;
+  bottom: 0;
+}
+
+.project-img {
+  height: auto;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  position: relative;
+  padding: 64% 0 0 0;
+}
+
+.pagination ul li a {
+  cursor: pointer;
+}
+.pagination-btn {
+  cursor: pointer;
+}
+
+.asset-listing-breadcrumb .asset-blocks.pattern span img {
+  height: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.asset-listing-breadcrumb .asset-blocks .asset-grid .pattern .selected {
+  height: auto;
+}
+
+.blog-list .project-wrapper .project-content h5 {
+  word-break: break-word;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.blog-details h1,
+.blog-details h2,
+.blog-details h3,
+.blog-details h4,
+.blog-details h5,
+.blog-details h6 {
+  color: #d5bb97;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  font-family: "Georgia", sans-serif;
+  margin: 0 0 14px;
+}
+
+@media (max-width: 1440px) {
+  .blog-details h1,
+  .blog-details h2,
+  .blog-details h3,
+  .blog-details h4,
+  .blog-details h5,
+  .blog-details h6 {
+    font-size: 20px;
+  }
+}
+
+.asset .button-block .view-btn {
+  width: auto;
+  margin: 0 auto;
+  padding: 12px 30px;
+}
+
+.asset .button-block .view-btn {
+  display: block;
+  color: #fff;
+  background-color: #025e5d;
+  border-radius: 35px;
+  border: 1px solid #025e5d;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 10px 0;
+  margin: 30px 0 20px;
+  width: 100%;
+  transition: all 0.3s ease-in;
+  font-family: "Montserrat", sans-serif;
+}
+/* 
+.blog-content ul {
+  margin: 16px 0;
+  padding-left: 20px;
+}
+
+.blog-content ul li {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+.blog-content ul li:not(:last-child) {
+  margin-bottom: 14px;
+} */
+
+.profile-dropdown{
+  background: rgba(18, 27, 22, 0.7) !important;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(19.5px);
+  -webkit-backdrop-filter: blur(19.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+.user-name {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user-profile-img {
+  width: 80px;
+  height: 80px;
+}
+.user-detail-dropdown button{
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.user-detail-dropdown button:hover ,.user-detail-dropdown button:focus {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.dropdown .dropdown-menu li a svg{
+  flex-shrink: 0;
+}
+.filter-dropdown option {
+  color: black;
+}
