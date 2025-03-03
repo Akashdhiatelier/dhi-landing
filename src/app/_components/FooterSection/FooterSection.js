@@ -75,7 +75,7 @@ function FooterSection() {
                 <h5>Contact</h5>
                 <div className="mb-2 mb-md-3 md-lg-4">
                   <span className="footer-subtitle">Address</span>
-                  <p>806, Nandan Pro Biz, 1501, Sai Chowk Rd,</br>
+                  <p>806, Nandan Pro Biz, 1501, Sai Chowk Rd,<br/>
                   Laxman Nagar, Balewadi, Pune, Maharashtra, India 411045</p>
                 </div>
                 <div className="mb-2 mb-md-3 md-lg-4">
