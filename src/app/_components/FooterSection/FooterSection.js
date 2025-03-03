@@ -27,8 +27,8 @@ function FooterSection() {
               <div className="footer-block">
                 <img src="/images/logo.png" alt="logo" />
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum is simply dummy text.
+                For inquiries, collaborations, or consultations, please reach out through the following
+                channels:
                 </p>
                 <FollowUs />
               </div>
@@ -75,15 +75,16 @@ function FooterSection() {
                 <h5>Contact</h5>
                 <div className="mb-2 mb-md-3 md-lg-4">
                   <span className="footer-subtitle">Address</span>
-                  <p>Lorem Ipsum is dummy, text of the printing.</p>
+                  <p>806, Nandan Pro Biz, 1501, Sai Chowk Rd,</br>
+                  Laxman Nagar, Balewadi, Pune, Maharashtra, India 411045</p>
                 </div>
                 <div className="mb-2 mb-md-3 md-lg-4">
                   <span className="footer-subtitle">Call</span>
-                  <a href="tel:+12 123 456 8989">+12 123 456 8989</a>
+                  <a href="tel:+91 78755 27848">+91 78755 27848</a>
                 </div>
                 <div>
                   <span className="footer-subtitle">Email</span>
-                  <a href="mailto:info@companymail.com">info@companymail.com</a>
+                  <a href="mailto:akash.jadhav@dhiatelier.com">akash.jadhav@dhiatelier.com</a>
                 </div>
               </div>
             </div>
